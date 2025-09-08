@@ -1,6 +1,6 @@
 ﻿using Microsoft.Identity.Client;
 
-var app = PublicClientApplicationBuilder.Create("62fe3e05-8922-4f26-b94c-b6696cd3be98")
+var app = PublicClientApplicationBuilder.Create("ef3a0a7a-5e7a-403a-bdef-f07b98a74ae9")
     .WithAuthority(AzureCloudInstance.AzurePublic, "a1c5bee8-9e19-44cb-9f07-b94b279890ab")
     .Build();
 
